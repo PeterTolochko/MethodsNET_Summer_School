@@ -1,0 +1,18 @@
+name: methodsnet-text-analysis-transformers
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - spacy
+  - jupyterlab
+  - ipykernel
+  - pytorch
+  - transformers
+  - accelerate
+  - datasets

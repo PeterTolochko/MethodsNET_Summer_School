@@ -1,0 +1,39 @@
+.DS_Store
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Course-generated local artifacts
+materials/raw_downloads/
+materials/transformer_outputs/
+
+# LaTeX source and build artifacts.
+# The student release should contain lecture PDFs only.
+lectures/**/*.tex
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# OS/editor noise
+.idea/
+.vscode/
+*~

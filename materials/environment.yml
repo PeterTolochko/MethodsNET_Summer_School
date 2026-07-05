@@ -1,0 +1,13 @@
+name: methodsnet-text-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - spacy
+  - jupyterlab
+  - ipykernel
